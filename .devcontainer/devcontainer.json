@@ -1,0 +1,19 @@
+{
+  "name": "Will Drazkowski Portfolio",
+  "image": "mcr.microsoft.com/devcontainers/html:1-ubuntu-22.04",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.live-server",
+        "bradlc.vscode-tailwindcss",
+        "formulahendry.auto-rename-tag"
+      ]
+    }
+  },
+  "forwardPorts": [3000, 5500, 8000],
+  "postCreateCommand": "echo 'Portfolio development environment ready!'"
+}
