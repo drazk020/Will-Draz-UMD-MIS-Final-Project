@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievements - My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * { color: #FFFDD0 !important; }
+        a { text-decoration: none; }
+        a:hover { opacity: 0.8; }
+    </style>
+    <style>
+        nav {
+            padding: 15px 0;
+            position: relative;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 25px;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        .nav-links a {
+            color: #FFFDD0;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+            font-size: 1rem;
+            letter-spacing: 0.5px;
+        }
+
+        .nav-links a:hover {
+            background: rgba(128, 0, 0, 0.3);
+            box-shadow: 0 0 10px rgba(128, 0, 0, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .nav-links a:active {
+            transform: translateY(0);
+        }
+
+        @media (max-width: 1200px) {
+            .nav-content {
+                padding: 0 20px;
+            }
+            
+            .nav-links {
+                gap: 15px;
+            }
+            
+            .nav-links a {
+                font-size: 0.95rem;
+                padding: 6px 12px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                gap: 10px;
+            }
+            
+            .nav-links a {
+                font-size: 0.9rem;
+                padding: 5px 10px;
+            }
+        }
+
+        .achievements-list {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            padding: 2rem 0;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .achievement-card {
+            background: #242424;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            border: 1px solid #333;
+            transition: transform 0.3s ease;
+        }
+
+        .achievement-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .achievement-card h3 {
+            color: #FFFDD0;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .achievement-content {
+            color: #FFFDD0;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .achievement-content p {
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="nav-content">
+                    <ul class="nav-links">
+                        <li><a href="hobbies.html">Hobbies</a></li>
+                        <li><a href="discover.html">Discover</a></li>
+                        <li><a href="career-interests.html">Career Interests</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="interactive-game.html">Interactive Game</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>Achievements</h1>
+            <p>Explore my accomplishments and milestones</p>
+        </section>
+
+        <section class="media-section">
+            <h2 class="section-title">Achievement Highlights</h2>
+            <div class="media-grid">
+                <div class="media-item">
+                    <div class="media-placeholder">
+                        [Academic Awards]
+                    </div>
+                    <div class="media-content">
+                        <h3 class="media-title">Academic Excellence</h3>
+                        <p class="media-description">3.5 GPA, FBLA State Finalist, Finance Challenge Bowl Champion</p>
+                    </div>
+                </div>
+                <div class="media-item">
+                    <div class="media-placeholder">
+                        [Athletic Achievements]
+                    </div>
+                    <div class="media-content">
+                        <h3 class="media-title">Sports Achievements</h3>
+                        <p class="media-description">Varsity Soccer Captain, State Powerlifting Qualifier</p>
+                    </div>
+                </div>
+                <div class="media-item">
+                    <div class="media-placeholder">
+                        [Leadership Recognition]
+                    </div>
+                    <div class="media-content">
+                        <h3 class="media-title">Leadership Awards</h3>
+                        <p class="media-description">Student/Athlete Recognition and Letter Awards</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="media-carousel">
+            <div class="carousel-placeholder">
+                [Achievement Timeline]
+            </div>
+        </section>
+
+        <section class="media-gallery">
+            <div class="gallery-item">
+                <div class="media-placeholder">
+                    [Award Ceremony 1]
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="media-placeholder">
+                    [Award Ceremony 2]
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="media-placeholder">
+                    [Award Ceremony 3]
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="media-placeholder">
+                    [Award Ceremony 4]
+                </div>
+            </div>
+        </section>
+
+        <section class="achievements-list">
+            <div class="achievement-card">
+                <h3>Academic Excellence</h3>
+                <div class="achievement-content">
+                    <p>Consistently maintaining a high academic standing through dedication and intellectual curiosity.</p>
+                    <ul style="list-style: none; margin-top: 0.5rem;">
+                        <li>• Dean's List Recognition (All Semesters)</li>
+                        <li>• 3.9+ GPA in Finance and MIS coursework</li>
+                        <li>• Academic Merit Scholarship Recipient</li>
+                        <li>• Top Performer in Financial Analysis</li>
+                        <li>• Advanced Business Analytics Award</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="achievement-card">
+                <h3>Certifications and Professional Development</h3>
+                <div class="achievement-content">
+                    <p>Actively pursuing professional growth through certifications and practical experience.</p>
+                    <ul style="list-style: none; margin-top: 0.5rem;">
+                        <li>• Financial Modeling Certification</li>
+                        <li>• Enterprise Systems Management Certificate</li>
+                        <li>• Business Analytics Specialization</li>
+                        <li>• Cloud Computing Fundamentals</li>
+                        <li>• Project Management Essentials</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="achievement-card">
+                <h3>Leadership & Impact</h3>
+                <div class="achievement-content">
+                    <p>Taking initiative and making meaningful contributions in various leadership roles.</p>
+                    <ul style="list-style: none; margin-top: 0.5rem;">
+                        <li>• Investment Club Memeber</li>
+                        <li>• Student Advisory Board Member</li>
+                        <li>• Business Case Competition Winner</li>
+                        <li>• Peer Mentoring Program Leader</li>
+                        <li>• Community Service Project Coordinator</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="achievement-card">
+                <h3>Athletic Achievements</h3>
+                <div class="achievement-content">
+                    <p>Demonstrating dedication and teamwork through athletic achievements.</p>
+                    <ul style="list-style: none; margin-top: 0.5rem;">
+                        <li>• Varsity Team Captain</li>
+                        <li>• Regional Championship Finalist</li>
+                        <li>• Most Valuable Player Award</li>
+                        <li>• Team Leadership Award</li>
+                        <li>• Athletic Honor Roll</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

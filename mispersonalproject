@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will Drazkowski - Finance & Technology Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * { color: #FFFDD0 !important; }
+        a { text-decoration: none; }
+        a:hover { opacity: 0.8; }
+        
+        .hero {
+            text-align: center;
+            padding: 4rem 0;
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .hero p {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+            color: #8ba3ff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="nav-content">
+                    <ul class="nav-links">
+                        <li><a href="education.html">Education</a></li>
+                        <li><a href="interests.html">Interests</a></li>
+                        <li><a href="hobbies.html">Hobbies</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a href="achievements.html">Achievements</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <style>
+                nav {
+                    padding: 15px 0;
+                    position: relative;
+                }
+
+                .nav-content {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    max-width: 1200px;
+                    margin: 0 auto;
+                }
+
+                .nav-links {
+                    display: flex;
+                    gap: 25px;
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                }
+
+                .nav-links a {
+                    color: #FFFDD0;
+                    text-decoration: none;
+                    padding: 8px 16px;
+                    border-radius: 4px;
+                    transition: all 0.3s ease;
+                    white-space: nowrap;
+                    font-size: 1rem;
+                    letter-spacing: 0.5px;
+                }
+
+                .nav-links a:hover {
+                    background: rgba(128, 0, 0, 0.3);
+                    box-shadow: 0 0 10px rgba(128, 0, 0, 0.2);
+                    transform: translateY(-2px);
+                }
+
+                .nav-links a:active {
+                    transform: translateY(0);
+                }
+
+                @media (max-width: 1200px) {
+                    .nav-content {
+                        padding: 0 20px;
+                    }
+                    
+                    .nav-links {
+                        gap: 15px;
+                    }
+                    
+                    .nav-links a {
+                        font-size: 0.95rem;
+                        padding: 6px 12px;
+                    }
+                }
+
+                @media (max-width: 768px) {
+                    .nav-links {
+                        gap: 10px;
+                    }
+                    
+                    .nav-links a {
+                        font-size: 0.9rem;
+                        padding: 5px 10px;
+                    }
+                }
+            </style>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero" id="home">
+            <h1>William Drazkowski</h1>
+            <p>Student of University of Minnesota-Duluth</p>
+            <p>Finance Major | Mathematics Minor</p>
+        </section>
+
+        <section class="media-section">
+            <h2 class="section-title">Featured Highlights</h2>
+            <div class="media-grid">
+                <div class="media-item">
+                    <div class="media-placeholder">
+                        [Profile Photo]
+                    </div>
+                    <div class="media-content">
+                        <h3 class="media-title">Professional Profile</h3>
+                        <p class="media-description">Finance student with a passion for markets and technology</p>
+                    </div>
+                </div>
+                <div class="media-item">
+                    <div class="media-placeholder">
+                        [Academic Projects]
+                    </div>
+                    <div class="media-content">
+                        <h3 class="media-title">Academic Excellence</h3>
+                        <p class="media-description">Showcasing research and academic achievements</p>
+                    </div>
+                </div>
+                <div class="media-item">
+                    <div class="media-placeholder">
+                        [Activities]
+                    </div>
+                    <div class="media-content">
+                        <h3 class="media-title">Extracurricular Activities</h3>
+                        <p class="media-description">Leadership and involvement in campus activities</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="media-carousel">
+            <div class="carousel-placeholder">
+                [Featured Projects Carousel]
+            </div>
+        </section>
+
+        <section class="star-wars-intro">
+            <div class="crawl-container">
+                <div class="crawl">
+                    <div class="title">
+                        <p>EPISODE 2025</p>
+                        <h1>THE JOURNEY BEGINS</h1>
+                    </div>
+                    
+                    <p>A promising talent emerges from the University of Minnesota-Duluth, where the convergence of Finance and Mathematics creates new possibilities in the financial technology landscape.</p>
+                    
+                    <p>Armed with algorithmic trading strategies and machine learning expertise, this young analyst combines technical precision with innovative thinking to navigate the complex world of modern finance.</p>
+                    
+                    <p>Achievements in academic excellence and leadership mark the path forward, while pursuits in tennis, chess, and music maintain the balance of analytical and creative expression....</p>
+                    
+                    <div class="details">
+                        <p>• Financial Modeling & Analysis</p>
+                        <p>• Equity Research and Analysis</p>
+                        <p>• Python for Algorithmic Trading</p>
+                        <p>• Business Analytics & Machine Learning</p>
+                        <br>
+                        <p>President's Student Leadership Award Recipient</p>
+                        <p>First Place, Carlson Case Competition</p>
+                        <p>Multiple Dean's List Recognitions</p>
+                        <p>Regional Tennis Championship Finalist</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fade-overlay"></div>
+            <div class="scroll-indicator">Scroll to Control ▼</div>
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    const crawl = document.querySelector('.crawl');
+                    let currentPosition = 200; // Start position
+                    let manualOffset = 0; // Track manual scroll offset
+                    const maxScroll = -400; // Maximum scroll position
+                    const minScroll = 200; // Minimum scroll position (starting point)
+                    let isScrolling = false;
+                    let scrollTimeout;
+                    let autoScrollInterval;
+                    const autoScrollSpeed = 0.5; // Pixels per frame
+
+                    // Update scroll position
+                    function updatePosition(delta, isAuto = false) {
+                        if (!isAuto) {
+                            // Add to manual offset when user scrolls
+                            manualOffset -= delta;
+                            // Limit manual offset
+                            manualOffset = Math.max(-600, Math.min(600, manualOffset));
+                        }
+                        
+                        // Combine auto-scroll position with manual offset
+                        let totalPosition = currentPosition - delta + manualOffset;
+                        totalPosition = Math.max(maxScroll, Math.min(minScroll, totalPosition));
+                        crawl.style.transform = `rotateX(25deg) translateY(${totalPosition}px)`;
+                        
+                        // Reset when reaching the bottom
+                        if (totalPosition <= maxScroll) {
+                            currentPosition = minScroll;
+                            manualOffset = 0; // Reset manual offset
+                        }
+                    }
+
+                    // Start auto-scroll
+                    autoScrollInterval = setInterval(() => {
+                        currentPosition -= autoScrollSpeed;
+                        updatePosition(0, true); // Update with auto-scroll
+                        
+                        if (currentPosition <= maxScroll) {
+                            currentPosition = minScroll;
+                            manualOffset = 0; // Reset manual offset when looping
+                        }
+                    }, 16); // ~60fps
+
+                    // Handle mouse wheel
+                    document.querySelector('.star-wars-intro').addEventListener('wheel', function(e) {
+                        e.preventDefault();
+                        updatePosition(e.deltaY * 0.5);
+                        document.querySelector('.scroll-indicator').style.opacity = '0';
+                    });
+
+                    // Handle touch events
+                    let touchStartY;
+                    
+                    document.querySelector('.star-wars-intro').addEventListener('touchstart', function(e) {
+                        touchStartY = e.touches[0].clientY;
+                        document.querySelector('.scroll-indicator').style.opacity = '0';
+                    });
+
+                    document.querySelector('.star-wars-intro').addEventListener('touchmove', function(e) {
+                        e.preventDefault();
+                        const touchDelta = touchStartY - e.touches[0].clientY;
+                        updatePosition(touchDelta * 0.5);
+                        touchStartY = e.touches[0].clientY;
+                    });
+
+                    // Handle keyboard events
+                    document.addEventListener('keydown', function(e) {
+                        if (e.key === 'ArrowUp') {
+                            updatePosition(-10);
+                        } else if (e.key === 'ArrowDown') {
+                            updatePosition(10);
+                        } else if (e.key === 'Space') {
+                            // Reset manual offset when spacebar is pressed
+                            manualOffset = 0;
+                        }
+                        document.querySelector('.scroll-indicator').style.opacity = '0';
+                    });
+                });
+            </script>
+            <style>
+                .star-wars-intro {
+                    height: 400px;
+                    perspective: 350px;
+                    color: #FFFDD0;
+                    font-family: 'Arial', sans-serif;
+                    font-weight: 600;
+                    letter-spacing: 6px;
+                    line-height: 150%;
+                    position: relative;
+                    overflow: hidden;
+                    background: #000;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 10px;
+                    margin: 20px auto;
+                    max-width: 1000px;
+                }
+
+                .crawl-container {
+                    position: relative;
+                    width: 100%;
+                    height: 400px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    overflow: hidden;
+                }
+
+                .crawl {
+                    position: absolute;
+                    width: 90%;
+                    max-width: 1200px;
+                    transform-origin: 50% 100%;
+                    animation: crawl 90s linear;
+                    animation-fill-mode: forwards;
+                }
+
+                .crawl .title {
+                    text-align: center;
+                    margin-bottom: 50px;
+                }
+
+                .crawl .title p {
+                    font-size: 18px;
+                    margin: 0;
+                    padding: 0;
+                }
+
+                .crawl .title h1 {
+                    font-size: 24px;
+                    margin: 10px 0;
+                    text-transform: uppercase;
+                }
+
+                .crawl {
+                    transform: rotateX(25deg) translateY(200px);
+                    transition: transform 0.1s ease-out;
+                    padding: 20px;
+                }
+
+                .crawl p {
+                    font-size: 16px;
+                    line-height: 1.5;
+                    margin: 0 0 20px;
+                    text-align: center;
+                }
+
+                .details {
+                    margin-top: 30px;
+                    text-align: center;
+                }
+
+                .details p {
+                    font-size: 14px;
+                    margin: 4px 0;
+                    text-align: center;
+                }
+
+                .scroll-indicator {
+                    position: fixed;
+                    bottom: 20px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    color: #FFFDD0;
+                    font-size: 14px;
+                    text-align: center;
+                    opacity: 0.8;
+                    z-index: 2;
+                    animation: pulse 2s infinite;
+                }
+
+                @keyframes pulse {
+                    0%, 100% { opacity: 0.3; }
+                    50% { opacity: 0.8; }
+                }
+
+                .fade-overlay {
+                    position: fixed;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    height: 30%;
+                    background: linear-gradient(to bottom, transparent, #000);
+                    pointer-events: none;
+                }
+
+                .star-wars-intro::before {
+                    content: '';
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    height: 30%;
+                    background: linear-gradient(to top, transparent, #000);
+                    pointer-events: none;
+                    z-index: 1;
+                }
+
+                @media (max-width: 768px) {
+                    .crawl .title h1 {
+                        font-size: 40px;
+                    }
+                    .crawl p {
+                        font-size: 20px;
+                    }
+                    .details p {
+                        font-size: 18px;
+                    }
+                }
+            </style>
+        </section>
+    </main>
+
+    <section class="slot-machine-container">
+        <style>
+            .slot-machine-container {
+                padding: 4rem 0;
+                background: #1a1a1a;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 2rem;
+            }
+
+            .slot-machine {
+                display: flex;
+                gap: 10px;
+                background: #242424;
+                padding: 2rem;
+                border-radius: 15px;
+                border: 3px solid #333;
+                box-shadow: 0 0 20px rgba(0,0,0,0.3);
+                position: relative;
+                overflow: hidden;
+            }
+
+            .slot-reel {
+                width: 200px;
+                height: 80px;
+                background: #1a1a1a;
+                border-radius: 10px;
+                overflow: hidden;
+                position: relative;
+            }
+
+            .slot-reel {
+                position: relative;
+                height: 240px; /* Show 3 items at a time */
+                background: linear-gradient(
+                    to bottom,
+                    rgba(26, 26, 26, 1) 0%,
+                    rgba(26, 26, 26, 0.2) 20%,
+                    rgba(26, 26, 26, 0.2) 80%,
+                    rgba(26, 26, 26, 1) 100%
+                );
+                border: 2px solid #333;
+                border-radius: 10px;
+                box-shadow: 
+                    inset 0 0 20px rgba(0, 0, 0, 0.5),
+                    0 0 10px rgba(255, 204, 0, 0.1);
+            }
+
+            .slot-reel::before {
+                content: '▼';
+                position: absolute;
+                left: 50%;
+                top: 10px;
+                transform: translateX(-50%);
+                color: #ffcc00;
+                font-size: 24px;
+                z-index: 3;
+                animation: pulse 1.5s infinite;
+            }
+
+            .slot-reel::after {
+                content: '▲';
+                position: absolute;
+                left: 50%;
+                bottom: 10px;
+                transform: translateX(-50%);
+                color: #ffcc00;
+                font-size: 24px;
+                z-index: 3;
+                animation: pulse 1.5s infinite;
+            }
+
+            @keyframes pulse {
+                0%, 100% { opacity: 0.5; transform: translateX(-50%) scale(1); }
+                50% { opacity: 1; transform: translateX(-50%) scale(1.2); }
+            }
+
+            /* Selection window */
+            .slot-window {
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                height: 80px;
+                border-top: 3px solid #ffcc00;
+                border-bottom: 3px solid #ffcc00;
+                background: rgba(255, 204, 0, 0.1);
+                z-index: 2;
+                pointer-events: none;
+                box-shadow: 
+                    0 0 15px rgba(255, 204, 0, 0.2),
+                    inset 0 0 15px rgba(255, 204, 0, 0.2);
+            }
+
+            .slot-items {
+                position: absolute;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                transition: transform 3s cubic-bezier(0.21, 0.53, 0.29, 0.99);
+                transform: translateY(-480px); /* Start at middle set */
+            }
+
+            .slot-item {
+                height: 80px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 1.2rem;
+                font-weight: bold;
+                text-decoration: none;
+                color: #FFFDD0;
+                transition: all 0.3s ease;
+                padding: 0 1rem;
+                border-top: 1px solid #333;
+                border-bottom: 1px solid #333;
+                background-color: rgba(26, 26, 26, 0.8);
+            }
+
+            .slot-item.winner {
+                color: #FFD700;
+                background-color: rgba(51, 51, 51, 0.9);
+                text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+                transform: scale(1.05);
+                z-index: 10;
+                box-shadow: 
+                    0 0 20px rgba(255, 215, 0, 0.3),
+                    inset 0 0 10px rgba(255, 215, 0, 0.2);
+            }
+
+            /* Center marker for alignment */
+            .center-marker {
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                height: 80px;
+                border: 2px solid #ffcc00;
+                pointer-events: none;
+                z-index: 1;
+                opacity: 0;
+                transition: opacity 0.3s;
+            }
+
+            .slot-machine.spinning .center-marker {
+                opacity: 1;
+            }
+
+            .slot-item.winner {
+                background-color: #2a2a2a;
+                box-shadow: 0 0 10px rgba(255, 205, 0, 0.3);
+                animation: winner-pulse 2s infinite;
+            }
+
+            @keyframes winner-pulse {
+                0% { box-shadow: 0 0 10px rgba(255, 205, 0, 0.3); }
+                50% { box-shadow: 0 0 20px rgba(255, 205, 0, 0.6); }
+                100% { box-shadow: 0 0 10px rgba(255, 205, 0, 0.3); }
+            }
+
+            .slot-item:hover {
+                background-color: #2a2a2a;
+            }
+
+            .slot-machine:before, .slot-machine:after {
+                content: '';
+                position: absolute;
+                left: 0;
+                right: 0;
+                height: 20px;
+                z-index: 1;
+                pointer-events: none;
+            }
+
+            .slot-machine:before {
+                top: 0;
+                background: linear-gradient(to bottom, #242424 0%, transparent 100%);
+            }
+
+            .slot-machine:after {
+                bottom: 0;
+                background: linear-gradient(to top, #242424 0%, transparent 100%);
+            }
+
+            .controls-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 1.5rem;
+                margin-top: 1rem;
+            }
+
+            .spin-button {
+                display: inline-block;
+                padding: 1.2rem 3rem;
+                font-size: 1.2rem;
+                background: linear-gradient(90deg, #cc9900, #ffcc00);
+                border: none;
+                border-radius: 50px;
+                color: #1a1a1a;
+                cursor: pointer;
+                font-weight: bold;
+                transition: transform 0.3s, box-shadow 0.3s;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+                min-width: 200px;
+            }
+
+            .spin-button:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+            }
+
+            .spin-button:active {
+                transform: translateY(0);
+                box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            }
+
+            .spin-button:disabled {
+                opacity: 0.5;
+                cursor: not-allowed;
+            }
+
+            .win-message {
+                font-size: 1.5rem;
+                color: #ffcc00;
+                opacity: 0;
+                transition: opacity 0.5s;
+                text-align: center;
+                max-width: 600px;
+                margin: 0 auto;
+            }
+
+            .win-message.visible {
+                opacity: 1;
+            }
+        </style>
+
+        <div class="slot-machine">
+            <div class="slot-reel">
+                <div class="slot-window"></div>
+                <div class="slot-items" id="reel1">
+                    <a href="about.html" class="slot-item" data-value="about">About Me</a>
+                    <a href="education.html" class="slot-item" data-value="education">Education</a>
+                    <a href="interests.html" class="slot-item" data-value="interests">Interests</a>
+                    <a href="hobbies.html" class="slot-item" data-value="hobbies">Hobbies</a>
+                    <a href="skills.html" class="slot-item" data-value="skills">Skills</a>
+                    <a href="achievements.html" class="slot-item" data-value="achievements">Achievements</a>
+                </div>
+            </div>
+            <div class="slot-reel">
+                <div class="slot-window"></div>
+                <div class="slot-items" id="reel2">
+                    <a href="about.html" class="slot-item" data-value="about">About Me</a>
+                    <a href="education.html" class="slot-item" data-value="education">Education</a>
+                    <a href="interests.html" class="slot-item" data-value="interests">Interests</a>
+                    <a href="hobbies.html" class="slot-item" data-value="hobbies">Hobbies</a>
+                    <a href="skills.html" class="slot-item" data-value="skills">Skills</a>
+                    <a href="achievements.html" class="slot-item" data-value="achievements">Achievements</a>
+                </div>
+            </div>
+            <div class="slot-reel">
+                <div class="slot-window"></div>
+                <div class="slot-items" id="reel3">
+                    <a href="about.html" class="slot-item" data-value="about">About Me</a>
+                    <a href="education.html" class="slot-item" data-value="education">Education</a>
+                    <a href="interests.html" class="slot-item" data-value="interests">Interests</a>
+                    <a href="hobbies.html" class="slot-item" data-value="hobbies">Hobbies</a>
+                    <a href="skills.html" class="slot-item" data-value="skills">Skills</a>
+                    <a href="achievements.html" class="slot-item" data-value="achievements">Achievements</a>
+                </div>
+            </div>
+        </div>
+        <div class="controls-container">
+            <button class="spin-button" onclick="spinSlots()">SPIN TO LEARN</button>
+            <div class="win-message">🎉 Let's explore this topic! Click to learn more! 🎉</div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+        <script>
+            function duplicateItems(reel) {
+                const items = Array.from(reel.children);
+                // Add items to the beginning for smooth transition
+                items.forEach(item => {
+                    const clone = item.cloneNode(true);
+                    reel.insertBefore(clone, reel.firstChild);
+                });
+                // Add items to the end for smooth transition
+                items.forEach(item => {
+                    const clone = item.cloneNode(true);
+                    reel.appendChild(clone);
+                });
+            }
+
+            // Initialize reels on page load
+            document.addEventListener('DOMContentLoaded', () => {
+                const reels = document.querySelectorAll('.slot-items');
+                reels.forEach(duplicateItems);
+                
+                // Position reels to show middle set of items initially
+                reels.forEach(reel => {
+                    const itemHeight = 80;
+                    const itemCount = 6; // Number of original items
+                    reel.style.transform = `translateY(${-itemHeight * itemCount}px)`;
+                });
+            });
+
+            function spinSlots() {
+                const slotMachine = document.querySelector('.slot-machine');
+                const spinButton = document.querySelector('.spin-button');
+                const winMessage = document.querySelector('.win-message');
+                const reels = [
+                    document.getElementById('reel1'),
+                    document.getElementById('reel2'),
+                    document.getElementById('reel3')
+                ];
+                
+                // Disable spin button during spin
+                spinButton.disabled = true;
+                winMessage.classList.remove('visible');
+                slotMachine.classList.add('spinning');
+
+                // Remove previous winner classes
+                document.querySelectorAll('.slot-item').forEach(item => {
+                    item.classList.remove('winner');
+                });
+
+                const itemHeight = 80;
+                const itemCount = 6; // Number of items in each reel
+                const mainItems = ['about', 'education', 'interests', 'hobbies', 'skills', 'achievements'];
+                const winningItem = mainItems[Math.floor(Math.random() * mainItems.length)];
+                
+                reels.forEach((reel, index) => {
+                    const delay = index * 500; // Stagger the reel stops
+                    
+                    // Calculate random number of full rotations (2-4)
+                    const rotations = 2 + Math.floor(Math.random() * 2);
+                    
+                    // Find position of winning item in middle set
+                    const itemIndex = mainItems.indexOf(winningItem);
+                    const initialOffset = itemCount * itemHeight; // Starting position (middle set)
+                    const finalOffset = itemIndex * itemHeight; // Offset within set
+                    
+                    // Calculate total movement including rotations and final position
+                    const totalSpins = (rotations * itemCount * itemHeight) + finalOffset;
+                    
+                    // Start spinning animation
+                    setTimeout(() => {
+                        reel.style.transition = 'transform 3s cubic-bezier(0.21, 0.53, 0.29, 0.99)';
+                        reel.style.transform = `translateY(${-initialOffset - totalSpins}px)`;
+                        
+                        // After spinning ends
+                        setTimeout(() => {
+                            // Reset position to middle set without animation
+                            reel.style.transition = 'none';
+                            reel.style.transform = `translateY(${-initialOffset - finalOffset}px)`;
+                            
+                            // Highlight winning items
+                            const winners = reel.querySelectorAll(`[data-value="${winningItem}"]`);
+                            winners.forEach(winner => {
+                                if (Array.from(winner.parentNode.children).indexOf(winner) >= itemCount) {
+                                    winner.classList.add('winner');
+                                }
+                            });
+                            
+                            if (index === 2) {
+                                spinButton.disabled = false;
+                                winMessage.classList.add('visible');
+                                slotMachine.classList.remove('spinning');
+                                
+                                // Trigger confetti animation
+                                confetti({
+                                    particleCount: 100,
+                                    spread: 70,
+                                    origin: { y: 0.6 },
+                                    colors: ['#FFD700', '#FFFDD0', '#800000', '#A52A2A'],
+                                    angle: 90,
+                                    startVelocity: 30,
+                                    gravity: 0.5,
+                                    scalar: 0.7
+                                });
+                                
+                                // Second burst of confetti after a small delay
+                                setTimeout(() => {
+                                    confetti({
+                                        particleCount: 50,
+                                        spread: 50,
+                                        origin: { y: 0.6 },
+                                        colors: ['#FFD700', '#FFFDD0', '#800000', '#A52A2A'],
+                                        angle: 120,
+                                        startVelocity: 25,
+                                        gravity: 0.5,
+                                        scalar: 0.65
+                                    });
+                                    confetti({
+                                        particleCount: 50,
+                                        spread: 50,
+                                        origin: { y: 0.6 },
+                                        colors: ['#FFD700', '#FFFDD0', '#800000', '#A52A2A'],
+                                        angle: 60,
+                                        startVelocity: 25,
+                                        gravity: 0.5,
+                                        scalar: 0.65
+                                    });
+                                }, 200);
+                            }
+                        }, 3000);
+                    }, delay);
+                });
+            }
+        </script>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Will Drazkowski. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

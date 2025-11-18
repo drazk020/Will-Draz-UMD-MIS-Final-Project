@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * { color: #FFFDD0 !important; }
+        a { text-decoration: none; }
+        a:hover { opacity: 0.8; }
+    </style>
+    <style>
+        nav {
+            padding: 15px 0;
+            position: relative;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 25px;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        .nav-links a {
+            color: #FFFDD0;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+            font-size: 1rem;
+            letter-spacing: 0.5px;
+        }
+
+        .nav-links a:hover {
+            background: rgba(128, 0, 0, 0.3);
+            box-shadow: 0 0 10px rgba(128, 0, 0, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .nav-links a:active {
+            transform: translateY(0);
+        }
+
+        @media (max-width: 1200px) {
+            .nav-content {
+                padding: 0 20px;
+            }
+            
+            .nav-links {
+                gap: 15px;
+            }
+            
+            .nav-links a {
+                font-size: 0.95rem;
+                padding: 6px 12px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                gap: 10px;
+            }
+            
+            .nav-links a {
+                font-size: 0.9rem;
+                padding: 5px 10px;
+            }
+        }
+
+        .skills-section {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            padding: 2rem 0;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .skill-card {
+            background: #242424;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            border: 1px solid #333;
+            transition: transform 0.3s ease;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .skill-card h3 {
+            color: #8ba3ff;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .skill-content {
+            margin-top: 1rem;
+            padding: 0.5rem;
+        }
+
+        .skill-bar {
+            width: 100%;
+            height: 8px;
+            background: #1a1a1a;
+            border-radius: 4px;
+            margin: 0.5rem 0 1.5rem 0;
+            overflow: hidden;
+        }
+
+        .skill-progress {
+            height: 100%;
+            background: #4a5fff;
+            border-radius: 4px;
+            transition: width 1s ease;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="nav-content">
+                    <ul class="nav-links">
+                        <li><a href="hobbies.html">Hobbies</a></li>
+                        <li><a href="discover.html">Discover</a></li>
+                        <li><a href="career-interests.html">Career Interests</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="interactive-game.html">Interactive Game</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>Professional Skills</h1>
+            <p>My Technical and Business Capabilities</p>
+        </section>
+
+        <section class="media-section">
+            <h2 class="section-title">Skill Demonstrations</h2>
+            <div class="media-grid">
+                <div class="media-item">
+                    <div class="media-placeholder">
+                        [Finance Projects]
+                    </div>
+                    <div class="media-content">
+                        <h3 class="media-title">Financial Analysis</h3>
+                        <p class="media-description">Portfolio management and market analysis demonstrations</p>
+                    </div>
+                </div>
+                <div class="media-item">
+                    <div class="media-placeholder">
+                        [Technical Work]
+                    </div>
+                    <div class="media-content">
+                        <h3 class="media-title">Technical Projects</h3>
+                        <p class="media-description">Programming and data analysis examples</p>
+                    </div>
+                </div>
+                <div class="media-item">
+                    <div class="media-placeholder">
+                        [Leadership]
+                    </div>
+                    <div class="media-content">
+                        <h3 class="media-title">Management Skills</h3>
+                        <p class="media-description">Project and team leadership experience</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="video-container" style="margin: 2rem 0; text-align: center;">
+            <h2 class="section-title" style="margin-bottom: 2rem;">Skill Demonstration Video</h2>
+            <div style="background: rgba(26, 26, 26, 0.9); border-radius: 15px; padding: 2rem; border: 2px solid rgba(128, 0, 0, 0.3); max-width: 800px; margin: 0 auto;">
+                <video width="100%" height="400" controls style="border-radius: 8px;">
+                    <source src="./media/UMD Welcome Video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+
+        <section class="media-gallery">
+            <div class="gallery-item">
+                <div class="media-placeholder">
+                    [Project 1]
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="media-placeholder">
+                    [Project 2]
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="media-placeholder">
+                    [Project 3]
+                </div>
+            </div>
+        </section>
+
+        <section class="skills-section">
+            <div class="skill-card">
+                <h3>Financial Analysis</h3>
+                <div class="skill-content">
+                    <p>Core financial analysis and management skills</p>
+                    <ul style="margin-top: 1rem; list-style: none;">
+                        <li>
+                            <div>CVP Analysis</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>Financial Modeling</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>Risk Assessment</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <h3>Technical Skills</h3>
+                <div class="skill-content">
+                    <p>Technology and systems expertise</p>
+                    <ul style="margin-top: 1rem; list-style: none;">
+                        <li>
+                            <div>Enterprise Systems</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>Data Analytics</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>Cloud Computing</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <h3>Business Strategy</h3>
+                <div class="skill-content">
+                    <p>Strategic planning and management capabilities</p>
+                    <ul style="margin-top: 1rem; list-style: none;">
+                        <li>
+                            <div>Strategic Planning</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>Process Optimization</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>Project Management</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
